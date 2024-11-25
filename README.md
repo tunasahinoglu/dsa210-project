@@ -15,7 +15,7 @@ This project aims to analyze Spotify daily listening durations in relation to we
 - **Source:** Collected from OpenWeatherMap API.
 - **Details:**
   - Weather type (e.g., Sunny, Rainy)
-  - Temperature on the listening date (optional)
+  - Temperature on the listening date
 
 ---
 
