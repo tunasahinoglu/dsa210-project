@@ -1,6 +1,6 @@
 # Spotify Daily Listening Duration and Weather Analysis
-## Project Objective
-This project aims to analyze Spotify daily listening durations in relation to weather data to understand how music listening habits are influenced by environmental factors. The focus is on examining changes in music preferences and listening times under different weather conditions.
+## Motivation
+This project aims to analyze Spotify daily listening durations in relation to weather data to understand how music listening habits are influenced by environmental factors. The focus is on examining changes in listening time under different weather conditions.
 
 ---
 
@@ -12,9 +12,9 @@ This project aims to analyze Spotify daily listening durations in relation to we
   - Listening duration (minutes)
 
 ### 2. **Weather Data**
-- **Source:** Collected from OpenWeatherMap API.
+- **Source:** Collected from visualcrossing.com as JSON format.
 - **Details:**
-  - Weather type (e.g., Sunny, Rainy)
+  - Weather type (e.g. Sunny, Rainy)
   - Temperature on the listening date
 
 ---
