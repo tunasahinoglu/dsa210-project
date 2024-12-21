@@ -16,18 +16,18 @@ This project aims to analyze Spotify daily listening durations in relation to we
 - **Details:**
   - Weather type (e.g. Sunny, Rainy)
   - Temperature on the listening date
-
+ 
 ---
 
 ## Methodology
 1. **Data Collection and Cleaning**
    - Spotify data was processed from JSON format to calculate daily listening durations.
    - Weather data was fetched and matched with Spotify data based on the date.
-
+ 
 2. **Data Analysis**
    - Examined the relationship between weather conditions and daily listening duration.
    - Analyzed genre preferences for different weather conditions.
-
+ 
 3. **Visualization**
    - Results were visualized using bar charts and heatmaps.
 
