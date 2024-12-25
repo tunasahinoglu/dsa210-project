@@ -1,6 +1,6 @@
 # Spotify Daily Listening Duration and Weather Analysis
 ## Motivation
-This project aims to analyze Spotify daily listening durations in relation to weather data to understand how music listening habits are influenced by environmental factors. The focus is on examining changes in listening time under different weather conditions.
+This project aims to uncover the relationship between daily music listening time and weather temperature. Understanding this correlation might provide insights into how external environmental factors influence personal habits like music listening.
 
 ---
 
@@ -14,27 +14,37 @@ This project aims to analyze Spotify daily listening durations in relation to we
 ### 2. **Weather Data**
 - **Source:** Collected from visualcrossing.com as JSON format.
 - **Details:**
-  - Weather type (e.g. Sunny, Rainy)
-  - Temperature on the listening date
+  - Daily temperature
  
 ---
 
 ## Methodology
 1. **Data Collection and Cleaning**
-   - Spotify data was processed from JSON format to calculate daily listening durations.
+   - Spotify data was processed from JSON format to calculate daily, weekly and monthly listening durations.
    - Weather data was fetched and matched with Spotify data based on the date.
  
-2. **Data Analysis**
-   - Examined the relationship between weather conditions and daily listening duration.
-   - Analyzed genre preferences for different weather conditions.
+2. **Data Integration** 
+   - Both datasets were merged on the date field to create a combined dataset with music listening time and corresponding daily temperature.
  
 3. **Visualization**
-   - Results were visualized using bar charts and heatmaps.
+   Multiple visualizations were generated to understand trends and relationships:
+    -  Daily comparisons of temperature and listening time.
+    -  Weekly and monthly aggregations to highlight broader patterns.
+
+4. **Analysis Scripts**
+   Python scripts (weather-spotify-daily.py, weather-spotify-weekly.py, and weather-spotify-monthly.py) were used for all analysis and visualizations.
 
 ---
 
 ## Findings
+    -  Daily temperature and listening duration showed moderate variation across the year.
+    -  Warmer months tended to have slightly increased listening durations.
 
 ---
 
 ## Limitations and Future Work
+    -  Data is limited to a single year and one geographical location, which might limit generalizability.
+    -  Collect additional years of data for improved statistical reliability.
+
+
+
