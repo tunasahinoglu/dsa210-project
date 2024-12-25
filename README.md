@@ -18,6 +18,69 @@ This project aims to uncover the relationship between daily music listening time
  
 ---
 
+## Sample Data
+
+  ### Spotify Sample Data
+    {
+            "endTime": "2024-07-25 07:46",
+            "artistName": "Chris Isaak",
+            "trackName": "Blue Hotel",
+            "msPlayed": 3100
+        },
+        {
+            "endTime": "2024-07-25 07:46",
+            "artistName": "Mark Knopfler",
+            "trackName": "Beryl",
+            "msPlayed": 840
+        },
+        {
+            "endTime": "2024-07-25 07:49",
+            "artistName": "Mark Knopfler",
+            "trackName": "What It Is",
+            "msPlayed": 210400
+        }
+
+  ### Weather Sample Data
+    {
+        "datetime" : "2024-07-25",
+        "datetimeEpoch" : 1721854800,
+        "tempmax" : 87.2,
+        "tempmin" : 73.6,
+        "temp" : 80.4,
+        "feelslikemax" : 88.8,
+        "feelslikemin" : 73.6,
+        "feelslike" : 81.4,
+        "dew" : 67.1,
+        "humidity" : 65.3,
+        "precip" : 0.0,
+        "precipprob" : 0.0,
+        "precipcover" : 0.0,
+        "preciptype" : null,
+        "snow" : 0.0,
+        "snowdepth" : 0.0,
+        "windgust" : 32.2,
+        "windspeed" : 19.6,
+        "winddir" : 36.0,
+        "pressure" : 1004.8,
+        "cloudcover" : 40.0,
+        "visibility" : 6.3,
+        "solarradiation" : 208.6,
+        "solarenergy" : 18.0,
+        "uvindex" : 10.0,
+        "sunrise" : "05:52:30",
+        "sunriseEpoch" : 1721875950,
+        "sunset" : "20:25:10",
+        "sunsetEpoch" : 1721928310,
+        "moonphase" : 0.64,
+        "conditions" : "Partially cloudy",
+        "description" : "Partly cloudy throughout the day.",
+        "icon" : "partly-cloudy-day",
+        "stations" : [ "D8508", "LTBA", "17063099999", "17119099999", "17118099999", "17064099999", "17060099999", "17066199999", "LTFJ" ],
+        "source" : "obs"
+      }
+    
+---
+
 ## Methodology
 1. **Data Collection and Cleaning**
    - Spotify data was processed from JSON format to calculate daily, weekly and monthly listening durations.
@@ -68,8 +131,8 @@ This project aims to uncover the relationship between daily music listening time
 ---
 
 ## Limitations and Future Work
-    -  Data is limited to a single year and one geographical location, which might limit generalizability.
-    -  Collect additional years of data for improved statistical reliability.
+    - Data is limited to a single year and one geographical location, which might limit generalizability.
+    - Collect additional years of data for improved statistical reliability.
 
 
 
