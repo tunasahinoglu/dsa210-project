@@ -1,6 +1,6 @@
 # Spotify Daily Listening Duration and Weather Analysis
 ## Motivation
-This project aims to uncover the relationship between daily music listening time and weather temperature. Understanding this correlation might provide insights into how external environmental factors influence personal habits like music listening.
+This project aims to uncover and analyze the potential relationship between daily music listening time and weather temperature. Understanding how these two variables interact could provide valuable insights into the ways external environmental factors influence personal habits and behaviors, specifically focusing on music consumption. The connection between weather conditions and human activity is an area that has attracted considerable attention in various disciplines, including psychology and behavioral science, yet relatively little research has been conducted to explore its impact on everyday activities such as listening to music. By delving into this relationship, the project seeks to determine whether certain weather patterns—such as warmer or colder days—lead to noticeable changes in the duration of music listening. The insights gained from this research may help explain broader patterns in how people adjust their daily routines in response to environmental factors, potentially revealing subtle but significant influences of weather on leisure activities.
 
 ---
 
@@ -84,6 +84,7 @@ This project aims to uncover the relationship between daily music listening time
 ## Methodology
 1. **Data Collection and Cleaning**
    - Spotify data was processed from JSON format to calculate daily, weekly and monthly listening durations.
+   - Deleting unnecessary data like brown noise, white noise and so on.
    - Weather data was fetched and matched with Spotify data based on the date.
  
 2. **Data Integration** 
@@ -100,15 +101,24 @@ This project aims to uncover the relationship between daily music listening time
 ---
 
 ## Findings
-1.  Daily Trends:
-     -  Moderate variations in listening duration across daily temperature changes.
-     -  Some warmer days correlated with slightly longer listening times.
-2.  Weekly Patterns:
-      - Weekly aggregations revealed consistent trends, with listening time peaking during moderate weather.  
-3.  Monthly Insights:
-      -  Warmer months generally showed slightly decreased listening durations compared to colder months.
-      -  In the monthly comparison chart, a noticeable dip in listening time is observed during August and September, while the temperatures were decreasing, the listening duration also decreased.
-      -  A gradual increase in listening time occurs from September to November, corresponding with cooler temperatures and potentially indoor-focused activities.
+## 1 - Daily Trends:
+
+  Analysis of daily variations in listening duration relative to temperature fluctuations revealed moderate shifts, with warmer days showing a tendency towards slightly longer music listening times. While these changes were not extreme, a general pattern emerged where mild increases in temperature appeared to correspond with marginally extended listening periods.
+
+## 2 - Weekly Patterns:
+
+  Aggregating the data on a weekly basis provided more consistent and clearer trends. It was observed that listening time tended to peak during weeks characterized by moderate weather conditions. This suggests that extreme weather, whether hot or cold, may slightly reduce the overall duration of daily music listening, while more temperate conditions encourage higher engagement with music.
+
+## 3 - Monthly Insights:
+
+  A comparative analysis across months highlighted broader seasonal trends. Specifically:
+  
+  Warmer months, such as July and August, generally showed slightly decreased overall listening durations compared to colder months like October and November.
+  
+  In the monthly comparison chart, a noticeable dip in listening time was observed during August and September. Despite the decrease in temperature during this period, listening durations also declined, suggesting that other seasonal factors, such as vacations or outdoor activities, might have influenced this trend.
+  
+  From September to November, a gradual and steady increase in listening time was evident. This trend coincided with cooler temperatures and the seasonal shift towards more indoor-focused activities, indicating a possible link between colder weather and increased music consumption.
+
 ---
 # Visualizations
 
@@ -131,8 +141,23 @@ This project aims to uncover the relationship between daily music listening time
 ---
 
 ## Limitations and Future Work
-    - Data is limited to a single year and one geographical location, which might limit generalizability.
-    - Collect additional years of data for improved statistical reliability.
+### Limitations:
+
+  1- The data used in this study is limited to a single year and one specific geographical location, which may restrict the ability to generalize findings to other regions or time periods.
+  
+  2- Variability in individual listening preferences, external factors such as cultural events, and differences in access to streaming services were not accounted for, which could influence results.
+
+### Future Work:
+
+  1- Collecting data over multiple years and from diverse geographical locations would enhance the robustness of the analysis and improve the generalizability of the findings.
+  
+  2- Including additional variables, such as precipitation, wind speed, and humidity, could provide a more comprehensive understanding of how weather conditions influence music listening behavior.
+  
+  3- Conducting surveys or qualitative research alongside quantitative analysis might offer deeper insights into the motivations behind changes in listening patterns during different weather conditions.
+  
+  4-Exploring the impact of specific genres and moods of music during varying weather conditions could further enrich the study by revealing preferences linked to emotional responses to the environment.
+
+
 
 
 
