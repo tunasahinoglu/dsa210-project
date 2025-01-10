@@ -136,6 +136,30 @@ From September to November, a gradual and steady increase in listening time was 
 **Monthly Comparison of Listening Time and Temperature**
 ![monthly_comparison](https://github.com/user-attachments/assets/13410d6c-043b-4f00-bed9-824595e94e7f)
 
+# Correlation Analysis: Temperature vs. Listening Time
+
+### Correlation Result
+- **Correlation between temperature and listening time (monthly)**: `-0.37`
+- **P-value**: `0.2671`
+
+### Monthly Comparison Table
+
+| Month    | Average Temperature (°C) | Average Listening Time (hours) |
+|----------|---------------------------|---------------------------------|
+| 2024-01  | 7.94                      | 2.04                            |
+| 2024-02  | 10.40                     | 1.30                            |
+| 2024-03  | 10.94                     | 1.89                            |
+| 2024-04  | 16.88                     | 1.47                            |
+| 2024-05  | 16.60                     | 2.07                            |
+| 2024-06  | 25.26                     | 1.25                            |
+| 2024-07  | 26.68                     | 1.78                            |
+| 2024-08  | 25.72                     | 1.09                            |
+| 2024-09  | 22.61                     | 0.90                            |
+| 2024-10  | 16.68                     | 1.01                            |
+| 2024-11  | 11.42                     | 1.22                            |
+
+### Summary
+The correlation coefficient of `-0.37` indicates a weak negative correlation between average monthly temperature and average listening time. The P-value of `0.2671` suggests that the correlation is not statistically significant at a typical significance level (e.g., 0.05).
     
 ---
 
