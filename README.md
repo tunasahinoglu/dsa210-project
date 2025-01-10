@@ -101,23 +101,22 @@ This project aims to uncover and analyze the potential relationship between dail
 ---
 
 ## Findings
-## 1 - Daily Trends:
+Overall, while no strong general correlation was found between daily temperature and music listening duration, more specific patterns emerged when examining particular time frames. This indicates that temperature may influence music listening behavior differently depending on the context and time scale.
 
-  Analysis of daily variations in listening duration relative to temperature fluctuations revealed moderate shifts, with warmer days showing a tendency towards slightly longer music listening times. While these changes were not extreme, a general pattern emerged where mild increases in temperature appeared to correspond with marginally extended listening periods.
+1 - Daily Trends:
+Analysis of daily variations in listening duration relative to temperature fluctuations revealed moderate shifts, with warmer days showing a tendency towards slightly longer music listening times. While these changes were not extreme, a general pattern emerged where mild increases in temperature appeared to correspond with marginally extended listening periods.
 
-## 2 - Weekly Patterns:
+2 - Weekly Patterns:
+Aggregating the data on a weekly basis provided more consistent and clearer trends. It was observed that listening time tended to peak during weeks characterized by moderate weather conditions. This suggests that extreme weather, whether hot or cold, may slightly reduce the overall duration of daily music listening, while more temperate conditions encourage higher engagement with music.
 
-  Aggregating the data on a weekly basis provided more consistent and clearer trends. It was observed that listening time tended to peak during weeks characterized by moderate weather conditions. This suggests that extreme weather, whether hot or cold, may slightly reduce the overall duration of daily music listening, while more temperate conditions encourage higher engagement with music.
+3 - Monthly Insights:
+A comparative analysis across months highlighted broader seasonal trends.
 
-## 3 - Monthly Insights:
+Warmer months, such as July and August, generally showed slightly decreased overall listening durations compared to colder months like October and November.
 
-  A comparative analysis across months highlighted broader seasonal trends. Specifically:
-  
-  Warmer months, such as July and August, generally showed slightly decreased overall listening durations compared to colder months like October and November.
-  
-  In the monthly comparison chart, a noticeable dip in listening time was observed during August and September. Despite the decrease in temperature during this period, listening durations also declined, suggesting that other seasonal factors, such as vacations or outdoor activities, might have influenced this trend.
-  
-  From September to November, a gradual and steady increase in listening time was evident. This trend coincided with cooler temperatures and the seasonal shift towards more indoor-focused activities, indicating a possible link between colder weather and increased music consumption.
+In the monthly comparison chart, a noticeable dip in listening time was observed during August and September. Despite the decrease in temperature during this period, listening durations also declined, suggesting that other seasonal factors, such as vacations or outdoor activities, might have influenced this trend.
+
+From September to November, a gradual and steady increase in listening time was evident. This trend coincided with cooler temperatures and the seasonal shift towards more indoor-focused activities, indicating a possible link between colder weather and increased music consumption.
 
 ---
 # Visualizations
