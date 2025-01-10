@@ -10,8 +10,9 @@ def load_weather_data(file_path):
     weather_df = pd.DataFrame(weather_data)
     weather_df['datetime'] = pd.to_datetime(weather_df['datetime'])
 
-    if 'temp' in weather_df.columns and weather_df['temp'].max() > 50:  Fahrenheit if max > 50
+    if 'temp' in weather_df.columns:
         weather_df['temp'] = (weather_df['temp'] - 32) * 5 / 9
+
 
     weather_df = weather_df[['datetime', 'temp']]
     weather_df['month'] = weather_df['datetime'].dt.to_period('M')
